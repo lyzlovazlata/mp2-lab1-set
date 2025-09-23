@@ -13,6 +13,8 @@
 using namespace std;
 
 typedef unsigned int TELEM;
+int const bitsInTELEM = sizeof(TELEM) * 8; // как в моей реализации класса - добавлю переменную для битов слова
+int const bytesInTELEM = (int)log2(bitsInTELEM); // а так же колво байтов
 
 class TBitField
 {
