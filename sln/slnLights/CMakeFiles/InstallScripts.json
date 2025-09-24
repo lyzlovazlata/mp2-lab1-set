@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Labs/mp2-lab1-set/sln/slnLights/cmake_install.cmake",
+		"C:/Labs/mp2-lab1-set/sln/slnLights/src/cmake_install.cmake",
+		"C:/Labs/mp2-lab1-set/sln/slnLights/samples/cmake_install.cmake",
+		"C:/Labs/mp2-lab1-set/sln/slnLights/gtest/cmake_install.cmake",
+		"C:/Labs/mp2-lab1-set/sln/slnLights/test/cmake_install.cmake",
+		"C:/Labs/mp2-lab1-set/sln/slnLights/lights/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

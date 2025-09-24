@@ -1,0 +1,7 @@
+C:/Labs/mp2-lab1-set/sln/slnLights/CMakeFiles/ALL_BUILD.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/CMakeFiles/ZERO_CHECK.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/src/CMakeFiles/set.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/samples/CMakeFiles/sample_prime_numbers.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/gtest/CMakeFiles/gtest.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/test/CMakeFiles/test_set.dir
+C:/Labs/mp2-lab1-set/sln/slnLights/lights/CMakeFiles/Lights.dir

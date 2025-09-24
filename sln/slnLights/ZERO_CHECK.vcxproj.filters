@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Labs\mp2-lab1-set\sln\slnLights\CMakeFiles\d346ba7fd1a994e2a553ae36f9aa86f8\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{547E4A6C-1CD9-358E-8631-ACE4B21FE5F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
