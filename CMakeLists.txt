@@ -25,7 +25,7 @@ add_subdirectory(src)
 add_subdirectory(samples)
 add_subdirectory(gtest)
 add_subdirectory(test)
-add_subdirectory(lights)
+add_subdirectory(sample2)
 
 # REPORT
 message( STATUS "")

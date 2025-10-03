@@ -11,6 +11,7 @@
 static const int FAKE_INT = -1;
 static TBitField FAKE_BITFIELD(1);
 
+// ЗАМЕНИ НА МЕМ ИНДЕКС!!!
 TBitField::TBitField(int len)
 {
     if (len < 0)
@@ -112,7 +113,7 @@ void TBitField::ClrBit(const int n) // очистить бит
     }
     else
     {
-        pMem[n >> bytesInTELEM] &= ~GetMemMask(n);
+        pMem[GetMemIndex(n)] &= ~GetMemMask(n);
     }
 }
 
