@@ -11,7 +11,6 @@
 static const int FAKE_INT = -1;
 static TBitField FAKE_BITFIELD(1);
 
-// ЗАМЕНИ НА МЕМ ИНДЕКС!!!
 TBitField::TBitField(int len)
 {
     if (len < 0)
@@ -97,7 +96,7 @@ void TBitField::SetBit(const int n) // установить бит
     }
     else
     {
-        pMem[n >> bytesInTELEM] |= GetMemMask(n); 
+        pMem[GetMemIndex(n)] |= GetMemMask(n);
     }
 }
 
@@ -130,7 +129,7 @@ int TBitField::GetBit(const int n) const // получить значение б
     else
     {
         int takeBit;
-        takeBit = pMem[n >> bytesInTELEM] & GetMemMask(n);
+        takeBit = pMem[GetMemIndex(n)] & GetMemMask(n);
         if (takeBit != 0)
         {
             return int(1); // инт тут для наглядности, то есть я возвращаю именно чиселку
